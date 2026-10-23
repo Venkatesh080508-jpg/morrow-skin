@@ -1,0 +1,102 @@
+/* ========================================================
+   MORROW SKIN — DESIGN SYSTEM TOKENS
+   Aesthetic: Warm Ivory, Muted Sage Green, Charcoal, Terracotta
+   ======================================================== */
+
+:root {
+  /* Brand Palette */
+  --color-ivory: #FAF7F2;
+  --color-ivory-warm: #F4ECE1;
+  --color-cream: #F5EFE6;
+  --color-surface: #FFFFFF;
+  --color-surface-soft: #FBF8F3;
+  --color-surface-muted: #F0EAE1;
+  
+  /* Muted Sage Greens */
+  --color-sage: #556857;
+  --color-sage-hover: #465748;
+  --color-sage-dark: #323E34;
+  --color-sage-light: #EBF0EA;
+  --color-sage-tint: #F3F6F2;
+  --color-sage-border: #D2DED1;
+
+  /* Charcoal Typography */
+  --color-charcoal: #181C19;
+  --color-charcoal-body: #343C36;
+  --color-charcoal-muted: #646E66;
+  --color-charcoal-light: #8E9890;
+
+  /* Terracotta Accents */
+  --color-terracotta: #BD6245;
+  --color-terracotta-hover: #A75237;
+  --color-terracotta-light: #FBECE7;
+  --color-terracotta-border: #F3D0C6;
+
+  /* Neutral Dividers */
+  --color-border: #E8E2D6;
+  --color-border-light: #F0EBE2;
+  --color-border-dark: #C9C1B2;
+
+  /* Feedback Colors */
+  --color-success: #3A6947;
+  --color-success-bg: #EEF6F0;
+  --color-warning: #B57C1E;
+  --color-warning-bg: #FEF8EC;
+  --color-gold: #D4A359;
+
+  /* Typography */
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Font Sizes & Hierarchy */
+  --text-xs: 0.75rem;    /* 12px */
+  --text-sm: 0.84375rem; /* 13.5px */
+  --text-base: 0.95rem;  /* 15.2px */
+  --text-md: 1.05rem;    /* 16.8px */
+  --text-lg: 1.25rem;    /* 20px */
+  --text-xl: 1.5rem;     /* 24px */
+  --text-2xl: 1.875rem;  /* 30px */
+  --text-3xl: 2.35rem;   /* 37.6px */
+  --text-4xl: 3.125rem;  /* 50px */
+  --text-5xl: 4rem;      /* 64px */
+
+  /* Spacing Scale */
+  --space-1: 0.25rem;   /* 4px */
+  --space-2: 0.5rem;    /* 8px */
+  --space-3: 0.75rem;   /* 12px */
+  --space-4: 1rem;      /* 16px */
+  --space-5: 1.25rem;   /* 20px */
+  --space-6: 1.5rem;    /* 24px */
+  --space-8: 2rem;      /* 32px */
+  --space-10: 2.5rem;   /* 40px */
+  --space-12: 3rem;     /* 48px */
+  --space-16: 4rem;     /* 64px */
+  --space-20: 5rem;     /* 80px */
+  --space-24: 6rem;     /* 96px */
+
+  /* Radii */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-subtle: 0 2px 8px rgba(24, 28, 25, 0.04);
+  --shadow-card: 0 4px 20px rgba(24, 28, 25, 0.06);
+  --shadow-hover: 0 10px 30px rgba(24, 28, 25, 0.09);
+  --shadow-drawer: -6px 0 35px rgba(24, 28, 25, 0.12);
+  --shadow-modal: 0 20px 50px rgba(24, 28, 25, 0.16);
+
+  /* Transitions */
+  --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Layout Widths */
+  --max-width-content: 1240px;
+  --max-width-wide: 1400px;
+  --header-height: 74px;
+  --announcement-height: 38px;
+}
